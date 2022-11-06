@@ -1,0 +1,5 @@
+1-run Command Prompt on program folder
+2-execute bellow command:
+Python trainDT.py -data="./input/SPECT.txt" -nlevels=10 -pthrd=0.2 -impurity="entropy" -pred_file="./output/output_1.txt"
+
+impurity for other methods is: gini, t-entropy, tsallis, renyi
